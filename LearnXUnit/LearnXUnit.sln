@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXUnit", "LearnXUnit\LearnXUnit.csproj", "{B72EF6DB-3752-4663-BCEE-BAB7389F845C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnXUnit.Test", "LearnXUnit.Test\LearnXUnit.Test.csproj", "{C43C984E-4281-4473-8AD0-617B4D9EB800}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B72EF6DB-3752-4663-BCEE-BAB7389F845C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B72EF6DB-3752-4663-BCEE-BAB7389F845C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B72EF6DB-3752-4663-BCEE-BAB7389F845C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43C984E-4281-4473-8AD0-617B4D9EB800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43C984E-4281-4473-8AD0-617B4D9EB800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43C984E-4281-4473-8AD0-617B4D9EB800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43C984E-4281-4473-8AD0-617B4D9EB800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
