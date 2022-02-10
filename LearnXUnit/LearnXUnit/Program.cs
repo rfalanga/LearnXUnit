@@ -5,13 +5,8 @@ Console.WriteLine("Hello, World!");
 
 int a = 2;
 int b = 3;
-int x = Add2<int>(a, b);
+int x = Add2(a, b);
 
-//T Add2<T>(T a, T b) => a + b;
-T? Add2<T>(T a, T b)
-{
-    if (a is null || b is null)
-    {
-        return null;
-    }
-}
+Console.WriteLine($"The sum of the two ints is {x}");
+
+int Add2(int a, int b) => a + b;
