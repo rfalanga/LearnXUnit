@@ -10,7 +10,10 @@ namespace LearnXUnit.Test
         {
             //Assert.Equal(1, 1); //this worked fine - as you'd expect
             //Arrange
-            var l = new LearnXUnit.Test
+            //var l = new LearnXUnit.Test
+            //var entryPoint = typeof(Program).Assembly.EntryPoint!;
+
+            // I've asked a question on SO for clarification: https://stackoverflow.com/questions/70645272/is-there-a-way-to-unit-test-top-level-statements-in-c
 
             //Act
 
