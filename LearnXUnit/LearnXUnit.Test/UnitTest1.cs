@@ -1,4 +1,5 @@
 using Xunit;
+using LearnXUnit;
 
 namespace LearnXUnit.Test
 {
@@ -28,9 +29,10 @@ namespace LearnXUnit.Test
             int a = 2;
             int b = 3;
             // Act
-            int result = LearnXUnit.Program.Add2(a, b);
+            //int result = LearnXUnit.Program.Add2(a, b);
+            int bozo = LearnXUnit.Program.Add2(10, 20);
             // Assert
-            Assert.Equal(5, result);
+            Assert.Equal(5, bozo);
         }
     }
 }
