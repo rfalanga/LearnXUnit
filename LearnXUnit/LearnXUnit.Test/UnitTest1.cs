@@ -1,4 +1,5 @@
 using Xunit;
+using static LearnXUnit.Program;
 
 namespace LearnXUnit.Test
 {
@@ -18,6 +19,18 @@ namespace LearnXUnit.Test
             //Act
 
             //Assert
+        }
+
+        [Fact]
+        public void Add2_ReturnsCorrectSum()
+        {
+            // Arrange
+            int a = 2;
+            int b = 3;
+            // Act
+            int result = Add2(a, b);
+            // Assert
+            Assert.Equal(5, result);
         }
     }
 }
