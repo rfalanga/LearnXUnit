@@ -6,13 +6,13 @@
         // how to use XUnit. 
         Console.WriteLine("Hello, World!");
 
-        int a = 2;
-        int b = 3;
-        int x = Add2(a, b);
+        //int a = 2;
+        //int b = 3;
+        //int x = Add2(a, b);
 
-        Console.WriteLine($"The sum of the two ints is {x}");
+        //Console.WriteLine($"The sum of the two ints is {x}");
 
     }
 
-    internal int Add2(int a, int b) => a + b;
+    internal static int Add2(int a, int b) => a + b;
 }
