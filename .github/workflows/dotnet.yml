@@ -14,7 +14,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      SOLUTION_LOCATION: 'LearnXUnit/LearnXUnit.sln'
+      SOLUTION_LOCATION: LearnXUnit/LearnXUnit.sln
 
     steps:
     - uses: actions/checkout@v4
