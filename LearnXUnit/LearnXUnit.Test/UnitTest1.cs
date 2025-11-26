@@ -30,7 +30,7 @@ namespace LearnXUnit.Test
             int b = 3;
             // Act
             //int result = LearnXUnit.Program.Add2(a, b);
-            int bozo = LearnXUnit.Program.Add2(10, 20);
+            int bozo = LearnXUnit.Program.Add2(a, b);
             // Assert
             Assert.Equal(5, bozo);
         }
