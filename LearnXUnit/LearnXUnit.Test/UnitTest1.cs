@@ -9,7 +9,6 @@ namespace LearnXUnit.Test
         public void Test2()
         {
             // Arrange
-            //var program = new LearnXUnit.Program();
             int a = 2;
             int b = 3;
             // Act
