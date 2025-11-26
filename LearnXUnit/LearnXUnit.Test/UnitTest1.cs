@@ -13,7 +13,6 @@ namespace LearnXUnit.Test
             int a = 2;
             int b = 3;
             // Act
-            //int result = LearnXUnit.Program.Add2(a, b);
             int bozo = Program.Add2(a, b);
             // Assert
             Assert.Equal(5, bozo);
