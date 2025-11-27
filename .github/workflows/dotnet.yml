@@ -23,7 +23,7 @@ jobs:
       with:
         dotnet-version: 9.0.x
     - name: Restore dependencies
-      run: dotnet restore $env.SOLUTION_LOCATION
+      run: dotnet $env.SOLUTION_LOCATION restore
     - name: Build
       run: dotnet $env.SOLUTION_LOCATION build --no-restore
     - name: Test
