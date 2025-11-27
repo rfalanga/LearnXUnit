@@ -25,6 +25,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build $env.SOLUTION_LOCATION --no-restore
+      run: dotnet $env.SOLUTION_LOCATION build --no-restore
     - name: Test
-      run: dotnet test $env.SOLUTION_LOCATION --no-build --verbosity normal
+      run: dotnet $env.SOLUTION_LOCATION test --no-build --verbosity normal
