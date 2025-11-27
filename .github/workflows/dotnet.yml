@@ -23,8 +23,8 @@ jobs:
       with:
         dotnet-version: 9.0.x
     - name: Restore dependencies
-      run: dotnet $env.SOLUTION_LOCATION restore
+      run: dotnet restore $env.SOLUTION_LOCATION
     - name: Build
-      run: dotnet $env.SOLUTION_LOCATION build --no-restore
+      run: dotnet build $env.SOLUTION_LOCATION --no-restore
     - name: Test
-      run: dotnet $env.SOLUTION_LOCATION test --no-build --verbosity normal
+      run: dotnet test $env.SOLUTION_LOCATION --no-build --verbosity normal
